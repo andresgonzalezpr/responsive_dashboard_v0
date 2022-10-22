@@ -2,15 +2,38 @@
 
 A new Flutter project.
 
-## Getting Started
+Proyecto responsive en flutter
+este proyecto nos sirve para mostrar diferente informacion en diferentes tamaño de pantallas este cambio es por pixeles
 
-This project is a starting point for a Flutter application.
+pantalla de computador
+![image](https://user-images.githubusercontent.com/109631504/197315023-42d6073e-b6f7-46eb-a6eb-7e38ec206410.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+
+
+pantalla tablet
+
+
+
+![image](https://user-images.githubusercontent.com/109631504/197315039-8be3cf32-c81a-49cd-9ee9-860c6b9cf805.png)
+![image](https://user-images.githubusercontent.com/109631504/197315051-3ce98db8-bdfa-453e-a1ed-6a09a3cbd2fb.png)
+
+
+
+
+
+
+
+
+pantalla movil
+
+
+![image](https://user-images.githubusercontent.com/109631504/197315065-a50ef646-493d-40fb-81e3-018e17c0667a.png)
+
+![image](https://user-images.githubusercontent.com/109631504/197315072-1c50d418-167c-4dbf-b452-7c4f55895fbf.png)
+
+
