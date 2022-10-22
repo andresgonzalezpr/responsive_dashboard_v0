@@ -21,10 +21,10 @@ class MyBox extends StatelessWidget {
           mainAxisAlignment:MainAxisAlignment.spaceEvenly,
           //agregamos las imagenes
           children:const [
-            Expanded(child:Image(image: AssetImage('images/pringles.png')),),
-            Expanded(child:Image(image: AssetImage('images/pringlesCremaycebolla.webp')),),
-            Expanded(child:Image(image: AssetImage('images/pringlesOriginal.jpg')),),
-            Expanded(child:Image(image: AssetImage('images/pringlesqueso.webp')),)
+            Expanded(child:Image(image: AssetImage('images/personaje1.png')),),
+            Expanded(child:Image(image: AssetImage('images/personajes2.png')),),
+            Expanded(child:Image(image: AssetImage('images/personaje3.jpg')),),
+            Expanded(child:Image(image: AssetImage('images/personaje4.png')),)
           ]
       ),
     );

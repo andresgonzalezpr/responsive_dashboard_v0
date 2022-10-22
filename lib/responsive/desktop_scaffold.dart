@@ -22,12 +22,14 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
   Widget build(BuildContext context) {
     //Scaffold nos ayuda a darle un buen diseño a nuestra pagina
     return Scaffold(
+
       //appBar nos crea el head que construimos en la hoja constants
       appBar: myAppBar,
       //le damos el color definimos en la hoja constants
-      backgroundColor: myDefaultBackground,
+      backgroundColor: Colors.yellow,
       //construimos una fila en el cuerpo
       body: Row(
+
         //Children nos ayuda a contener varios widgets
         children: [
           //Colocamos el menu que construimos en la hoja de constats
@@ -65,8 +67,9 @@ class _DesktopScaffoldState extends State<DesktopScaffold> {
             child: Column(
               children: const [
                 Expanded(
+
                   child:Image(
-                      image: AssetImage('images/publicidadpringles.jpg')
+                      image: AssetImage('images/personajes.webp')
                   )
                 ),
               ],

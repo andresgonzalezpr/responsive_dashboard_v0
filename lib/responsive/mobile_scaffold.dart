@@ -27,7 +27,7 @@ class _MobileScaffoldState extends State<MobileScaffold> {
       //appBar nos crea el head que construimos en la hoja constants
       appBar: myAppBar,
       //le damos el color definimos en la hoja constants
-      backgroundColor: myDefaultBackground,
+      backgroundColor: Colors.pink,
       //Colocamos el menu que construimos en la hoja de constats
       drawer: mydrawer,
       // creamos una columna

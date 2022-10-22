@@ -25,7 +25,7 @@ class _TabletScaffold extends State<TabletScaffold> {
       //appBar nos crea el head que construimos en la hoja constants
       appBar: myAppBar,
       //le damos el color definimos en la hoja constants
-      backgroundColor: myDefaultBackground,
+      backgroundColor: Colors.green[400],
       //Colocamos el menu que construimos en la hoja de constats
       drawer: mydrawer,
       // creamos una columna

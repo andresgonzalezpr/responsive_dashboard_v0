@@ -21,35 +21,57 @@ class TvScaffold extends StatefulWidget {
 class _TvScaffold extends State<TvScaffold> {
   @override
   Widget build(BuildContext context) {
-    //nos ayuda a dar una un buen diseño a la hoja
+    //Scaffold nos ayuda a darle un buen diseño a nuestra pagina
     return Scaffold(
       //appBar nos crea el head que construimos en la hoja constants
       appBar: myAppBar,
       //le damos el color definimos en la hoja constants
-      backgroundColor: myDefaultBackground,
-      //Colocamos el menu que construimos en la hoja de constats
-      drawer: mydrawer,
-      // creamos una columna
-      body: Column(
-        //children nos ayuda a contener varios Widgets
+      backgroundColor: Colors.blueAccent,
+      //construimos una fila en el cuerpo
+      body: Row(
+        //Children nos ayuda a contener varios widgets
         children: [
-          // AspectRatio nos ayuda a que ancho debe ser dos veces más grande que la altura
-          AspectRatio(
-            aspectRatio: 3,
-            //se define como un cuadro con un tamaño
-            child: SizedBox(
-              width: double.infinity,
-              // mostramos las imagenes en una lista las cuales estan en la hoja MyBox
-              child: ListView.builder(
-                  itemCount: 1,
-                  itemBuilder: (context, index) {
-                    return const MyBox();
-                  }),
-            ),
-          ),
-          //Mostramos la lista que construimos en constants
+          //Colocamos el menu que construimos en la hoja de constats
+          mydrawer,
+          //nos crea otra columna
           Expanded(
-              child: lista
+              flex: 3,
+              child: Column(
+                children: [
+                  // AspectRatio nos ayuda a que ancho debe ser dos veces más grande que la altura
+
+                  AspectRatio(
+                    aspectRatio: 3,
+                    child: SizedBox(
+                      //se define como un cuadro con un tamaño
+                      width: double.infinity,
+                      //creamos una lista
+                      child: ListView.builder(
+                        // nos ayuda a que las imagenes se muestren una vez
+                          itemCount: 1,
+                          itemBuilder: (context, index) {
+                            //Mybox contiene imagenes las cuales estan en esa hoja
+                            return const MyBox();
+                          }),
+                    ),
+                  ),
+                  // nos muestra la lista que creamos en constants
+                  Expanded(
+                      child: lista
+                  ),
+                ],
+              )),
+          //este expanded nos muestra una imagen como si fuera un aside
+          Expanded(
+            child: Column(
+              children: const [
+                Expanded(
+                    child:Image(
+                        image: AssetImage('images/personajes.webp')
+                    )
+                ),
+              ],
+            ),
           ),
         ],
       ),

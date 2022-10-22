@@ -14,19 +14,20 @@ var myAppBar = AppBar(
   //Le damos un color negro
   backgroundColor: Colors.black,
 // le colocamos un titulo centrado  con un color blanco y un tamaño de letra
-  title: const Center(child:Text('PRINGLES PRODUCTOS',style: TextStyle(color: Colors.white, fontSize: 24) ),
+  title: const Center(child:Text('PRINGLES PRODUCTOS',style: TextStyle(color: Colors.black, fontSize: 24) ),
 
   ),
 //Agregamos una imagen que va quedar al lado derecho de la pantalla con ciertas medidas
   flexibleSpace: const Image(
     alignment: Alignment.topRight,
-    image: AssetImage('images/pringles.png'),
+    image: AssetImage('images/logo_mario.webp'),
     width: 55,
     height: 55,
   ),
 );
 //Drawer es un Widget de flutter el cual nos sirve para desplegar un menu
 var mydrawer = Drawer(
+
   //Creamos una lista
   child: ListView(
     //
@@ -121,33 +122,33 @@ var lista=ListView(
     ListTile(
       leading:Image(
         alignment: Alignment.topRight,
-        image: AssetImage('images/pringlesqueso.webp'),
+        image: AssetImage('images/personaje1.png'),
         width: 55,
         height: 55,
       ),
-      title: Text('Papas Pringles queso',textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontSize: 24)),
+      title: Text('BOWSER',textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontSize: 24)),
     ),
 
     // creamos un campo en la lista el cual contiene una imagen,y un texto alineado al centro y de un color negro con su respectivo tamaño
     ListTile(
       leading:Image(
         alignment: Alignment.topRight,
-        image: AssetImage('images/pringlesOriginal.jpg'),
+        image: AssetImage('images/personajes2.png'),
         width: 55,
         height: 55,
       ),
-      title: Text('Papas Pringles original',textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontSize: 24)),
+      title: Text('MARIO',textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontSize: 24)),
     ),
 
     // creamos un campo en la lista el cual contiene una imagen,y un texto alineado al centro y de un color negro con su respectivo tamaño
     ListTile(
       leading:Image(
         alignment: Alignment.topRight,
-        image: AssetImage('images/pringlesCremaycebolla.webp'),
+        image: AssetImage('images/personaje3.jpg'),
         width: 55,
         height: 55,
       ),
-      title: Text('Papas Pringles Crema y cebolla',textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontSize: 24)),
+      title: Text('PRINCESA',textAlign: TextAlign.center,style: TextStyle(color: Colors.black, fontSize: 24)),
     ),
   ],
 );
