@@ -1,8 +1,7 @@
 /*
-Joan Alexander Vera Beltran
+andres gonzalez
 SENA
 ficha:2470980
-fecha:9/10/2022
 
 */
 //Importamos framework flutter y otras hojas de diseño
