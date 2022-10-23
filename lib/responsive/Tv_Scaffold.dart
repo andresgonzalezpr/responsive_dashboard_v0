@@ -1,5 +1,5 @@
 /*
-Andres gonzales
+Andres gonzalez
 SENA
 ficha:2470980
 
